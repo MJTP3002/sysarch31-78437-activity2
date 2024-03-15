@@ -1,0 +1,79 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-style:Tahoma;
+  background-color: #3B2F2F
+  
+}
+
+body {
+  background-image: url('https://wallpapers.com/images/featured/dark-aesthetic-computer-cxzphn9h6y9jjp6o.jpg');
+  background-size: cover; /* This property ensures that the background image covers the entire viewport */
+  background-position: center; /* This property centers the background image */
+  font-family: Tahoma;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+
+
+
+
+.title {
+  margin: 20px;
+  font-size: 2.5em; 
+  color: #343a40; 
+  font-style:Tahoma;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-bar li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #36454F;
+  font-size: 1.2em; 
+  font-style: tahoma;
+}
+
+.nav-bar a:hover {
+  color: #033E3E;
+}
+.student-list {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  font-style: Tahoma;
+}
+
+.card {
+  margin-top: 25px;
+  max-width:  300px; 
+  max-height:300px; 
+  padding: 20px;
+  border: 5px solid #FFDEAD;
+  background-color: #FBE7A1;
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  text-align: center;
+  font-style: Tahoma;
+}
+
+.card img {
+  width: auto;
+  max-height: 70%; 
+  border-radius: 5%; 
+  margin-bottom: 20px; 
+  font-style: Tahoma;
+}
+
